@@ -1,0 +1,33 @@
+[package]
+name = "michis_undo_redo"
+version = "0.1.0"
+edition = "2024"
+
+description = "An implementation of an undo/redo system, inspired by Godot Engine's UndoRedo object."
+readme = true
+repository = "https://github.com/LikeLakers2/michis_undo_redo"
+license = "MIT OR Apache-2.0"
+keywords = ["undo", "redo"]
+categories = ["data-structures"]
+
+[dependencies]
+
+[dev-dependencies]
+rstest = "0.26"
+
+[lints]
+clippy.allow_attributes_without_reason = "forbid"
+clippy.cargo_common_metadata = "warn"
+clippy.doc_markdown = "warn"
+clippy.semicolon_if_nothing_returned = "warn"
+clippy.semicolon_inside_block = "warn"
+
+# All errors and safety conditions must be documented
+clippy.missing_errors_doc = "warn"
+clippy.missing_panics_doc = "forbid"
+clippy.missing_safety_doc = "forbid"
+
+# Try to use alloc and core where possible
+clippy.alloc_instead_of_core = "forbid"
+clippy.std_instead_of_alloc = "forbid"
+clippy.std_instead_of_core = "forbid"

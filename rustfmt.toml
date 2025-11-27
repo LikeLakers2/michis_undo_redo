@@ -1,0 +1,11 @@
+edition = "2024"
+
+hard_tabs = true
+imports_layout = "HorizontalVertical"
+group_imports = "StdExternalCrate"
+
+max_width = 100
+fn_params_layout = "Tall"
+wrap_comments = true
+comment_width = 100
+

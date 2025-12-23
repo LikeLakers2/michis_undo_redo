@@ -1,19 +1,16 @@
 [package]
 name = "michis_undo_redo"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 
 description = "An implementation of an undo/redo system, inspired by Godot Engine's UndoRedo object."
 readme = true
-repository = "https://github.com/LikeLakers2/michis_undo_redo"
+repository = "https://codeberg.org/LikeLakers2/michis_undo_redo"
 license = "MIT OR Apache-2.0"
 keywords = ["undo", "redo"]
 categories = ["data-structures"]
 
 [dependencies]
-
-[dev-dependencies]
-rstest = "0.26"
 
 [lints]
 clippy.allow_attributes_without_reason = "forbid"
